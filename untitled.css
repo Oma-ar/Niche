@@ -1,0 +1,102 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    height:100vh;
+    background:#333;
+    color:#fff;
+}
+
+/* Style the header */
+header {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height:50px;
+}
+nav
+{display:flex;
+ justify-content:space-between;
+ align-items:center;
+}
+
+/* Style the logo */
+.logo img {
+    width: 70px;
+    height: 70px;}
+.niche
+{border:0;
+}
+
+/* Style the search bar */
+.search-bar {
+    padding-right: 100px;
+    font:bold 20px serif;
+    border: none;
+    border-radius: 5px;
+    margin-right: 0px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style the hamburger menu */
+.hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 2px 0;
+}
+/* about */
+.about
+{font:20px verdana;
+}
+.wears{color:teal;}
+h1
+{color:#fff;padding-left:30px;font:bold 30px serif;}
+p,li
+{padding:0px 20px 0px 20px;font:15px serif;
+ max-width: 45ch;
+ overflow-wrap: break-word;
+ }
+/* content/ourvision */
+.content
+{background-color:}
+ 
+.skate,.techy
+{width:100%;
+ height:auto;
+ border-radius:0;
+}
+/* footer */
+.footer
+{background:#000;
+ height:600px;
+ text-align: center;
+}
+
+.contact
+{padding:100px 10px 0 0;}
+.xo,.insta
+{width:30px;
+ height:30px;
+ border-radius:50%;
+ margin:20px;
+}

@@ -1,0 +1,105 @@
+
+body
+{ margin:0;
+  padding:0
+  height:100%;
+  background:;}
+
+.logo
+{display:flex;
+ justify-content:space-between;
+ height:35px;
+ position: sticky;
+ padding-top:20px;
+ background:linear-gradient(to right,
+           #000 0%,
+           #000 100%);}
+.signup
+{color:#fff;
+ font:bold 1.2em serif;
+ padding-left:10px;
+ width: 70px;
+ height: 30px;
+}
+
+
+a
+{text-decoration: none;color:#fff;
+}
+.niche
+{font:bold 1.5em serif;color:#fff;
+ padding-right:25px;
+}
+
+.menu
+{padding-right:30px;
+ display:flex;
+ flex-direction:column;
+ cursor: pointer;
+}
+
+.box
+{width:3px;
+ height:3px;
+ background:#fff;
+ margin:2px 0;
+}
+
+.wears,.welcome
+{color:teal;font-family:serif;}
+.welcome
+{font-size:2em;font-weight: bold;
+}
+/* logins */
+.main,form
+{display:flex;
+ flex-direction:column;
+ align-items: center;
+ padding-bottom:100px;
+}
+.main:before
+{content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  background:#000;
+  border-radius:0 0 50% 50%/
+                0 0 5% 5%;
+  transform:scaleX(1);
+}
+.main,p,form
+{ position: relative;
+  z-index: 1;
+  height:300px;}
+
+input
+{width:320px;height:45px;
+ margin:10px;
+ border:solid 2px teal;
+ border-radius:3px;
+ font: bold 20px cursive;
+ padding-left: 30px;
+ background:#333;
+ color:white;
+ outline-color: white;
+}
+.buttons
+{display: flex;
+}
+button
+{
+ width: 70px;
+ height: 30px;
+ font:bold 13px cursive;
+ margin:10px;
+ background:#000;
+ color:#fff;
+ border:solid 2px teal;
+ 
+}
+
+/* main */
+img
+{width:100%;}
